@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon
   m_Shader: {fileID: 4800000, guid: f66252da1bfa3da42b80f2bb942f9812, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _KIND_HAIR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,6 +56,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _HairSphTex:
+        m_Texture: {fileID: 2800000, guid: b46ddbc4f0483fd4ab3b5a9fb1f97b6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -76,8 +80,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: e807be4c578a7b04a8163241231a1be0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RimRamp:
+        m_Texture: {fileID: 2800000, guid: 7b26d0b42fce6c14593b24ef5f3668a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintColor:
+        m_Texture: {fileID: 2800000, guid: 7ea5dda13589cb647b9bf29e9637a8dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintRamp:
+        m_Texture: {fileID: 2800000, guid: 7ea5dda13589cb647b9bf29e9637a8dc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -107,11 +123,18 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _HairSphGloss: 2.01
+    - _HairSphStrength: 2
+    - _Kind: 2
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _Outline: 0.0174
+    - _OutlineFactor: 0.26
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _RimPower: 1
+    - _RimStrength: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -120,8 +143,14 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TintBaseColor: {r: 0.9622641, g: 0.88943726, b: 0.84878963, a: 1}
+    - _TintColor1: {r: 0.5333333, g: 0.08972024, b: 0, a: 1}
+    - _TintColor2: {r: 0.754717, g: 0.0747597, b: 0.0747597, a: 1}
+    - _TintColor3: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

@@ -8,6 +8,8 @@ struct Surface
     float alpha;
     float3 viewDir;
     float3 posWS;
+    float2 matcapUV;
+    float3 hairSpecular;
 };
 
 #endif
